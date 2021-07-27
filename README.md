@@ -1,4 +1,4 @@
-# WEATHER APP ❄️🌧☀️🌥
+# WEATHER APP ❄️🍃☀️🍂
 
 ☀️ July 2021  
 ✨ Frontend - ReactJS  
@@ -19,9 +19,9 @@ Weather App for Amsterdam city.
 
 ---
 
-✘ Create a full React single page for the weather
+✘ Create a full React single page for the weather  
 ✘ Imagine the layout  
-✘ Display the temperature of a city of my choice
+✘ Display the temperature of a city of my choice  
 ✘ Make the responsive design of the app  
 ✘ Manipulate styled-components  
 ✘ Send requests - [API Open Weather Map](https://openweathermap.org/)
