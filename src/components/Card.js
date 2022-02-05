@@ -1,5 +1,4 @@
 const Card = ({ weatherData }) => {
-  // Function for date & hour
   const convertDate = (str) => {
     const selectHour = str.split(" ");
     const hour = selectHour[1].substring(0, 5);

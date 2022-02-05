@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-// Styled-components
 const Head = styled.header`
   height: 100px;
   border-bottom: 1px solid var(--border-grey);

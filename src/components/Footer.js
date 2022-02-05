@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-// Styled-components
 const Foot = styled.footer`
   background-color: white;
   border-top: 1px solid var(--border-grey);

@@ -3,12 +3,10 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { createGlobalStyle } from "styled-components";
 
-// Composents - import
 import Header from "./components/Header";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 
-// Styled-components
 const GlobalStyle = createGlobalStyle`
   body {
     background-color: var(--bg-light-grey);
@@ -75,8 +73,6 @@ function App() {
           `https://api.openweathermap.org/data/2.5/forecast?q=Amsterdam,nl&units=metric&cnt=5&APPID=ea3fa8eae2abb2173ddb7902ade3a2d0`
         );
 
-        console.log(response.data);
-
         if (response.status === 200) {
           setWeatherData(response.data);
           setLoadingWeatherData(false);
@@ -91,7 +87,6 @@ function App() {
   // Function for date
   const gettingDate = (offset) => {
     const actualDate = new Date(new Date().getTime() + offset * 1000);
-
     const dayNumber = actualDate.getDate();
     const day = actualDate.getDay();
     const month = actualDate.getMonth();

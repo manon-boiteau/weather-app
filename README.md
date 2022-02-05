@@ -8,7 +8,7 @@
 
 ---
 
-Weather App for Amsterdam city.  
+Weather App → Amsterdam city, for a technical test.  
 3 screens are availables: desktop, tablette, mobile.
 
 ![Screen 1](src/assets/img/screen-1.png)  
